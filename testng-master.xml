@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master Automation Suite" verbose="1">
+    <suite-files>
+        <suite-file path="testng-authentication.xml"/>
+        <suite-file path="testng-products.xml"/>
+        <suite-file path="testng-shopping.xml"/>
+        <suite-file path="testng-misc-ui.xml"/>
+    </suite-files>
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Authentication Suite">
+    <test name="Login Tests">
+        <classes>
+            <class name="Tests.AuthenticationTests.PositiveLoginTest"/>
+            <class name="Tests.AuthenticationTests.NegativeLoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Signup Tests">
+        <classes>
+            <class name="Tests.AuthenticationTests.PositiveSignUpTest"/>
+            <class name="Tests.AuthenticationTests.NegativeSignupTest"/>
+        </classes>
+    </test>
+
+    <test name="Logout Tests">
+        <classes>
+            <class name="Tests.AuthenticationTests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>

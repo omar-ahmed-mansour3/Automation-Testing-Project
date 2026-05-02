@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Shopping &amp; Checkout Suite">
+    <test name="Cart Management">
+        <classes>
+            <class name="Tests.CartTests.AddProductsInCartTest"/>
+            <class name="Tests.CartTests.RemoveFromCartTest"/>
+            <class name="Tests.CartTests.VerifyProductQuantityInCartTest"/>
+            <class name="Tests.CartTests.AddRecommendedItemsTest"/>
+        </classes>
+    </test>
+
+    <test name="Checkout Flows">
+        <classes>
+            <class name="Tests.CheckoutTests.RegisterBeforeCheckoutTest"/>
+            <class name="Tests.CheckoutTests.RegisterWhileCheckoutTest"/>
+            <class name="Tests.CheckoutTests.LoginBeforeCheckoutTest"/>
+            <class name="Tests.CheckoutTests.VerifyAddressInCheckoutTest"/>
+        </classes>
+    </test>
+</suite>

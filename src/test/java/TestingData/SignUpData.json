@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Omar Test",
+    "email": "omar_test_123456789784553@gmail.com",
+    "password": "SecurePassword123",
+    "day": "12",
+    "month": "April",
+    "year": "1995",
+    "firstName": "Omar",
+    "lastName": "Ahmed",
+    "company": "Edges Training",
+    "address": "123 Tahrir Street",
+    "country": "Canada",
+    "state": "Cairo",
+    "city": "Nasr City",
+    "zipcode": "11765",
+    "mobileNumber": "01099887766"
+  }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI &amp; Smoke Suite">
+    <test name="Subscription Tests">
+        <classes>
+            <class name="Tests.SubscriptionTests.VerifySubscriptionInCartTest"/>
+            <class name="Tests.SubscriptionTests.VerifySubscriptionInHomePageTest"/>
+        </classes>
+    </test>
+
+    <test name="Scrolling Tests">
+        <classes>
+            <class name="Tests.ScrollingTests.ScrollUsingArrowTest"/>
+            <class name="Tests.ScrollingTests.ScrollWithoutArrowTest"/>
+        </classes>
+    </test>
+
+    <test name="General UI">
+        <classes>
+            <class name="Tests.TestCasesTest"/>
+        </classes>
+    </test>
+</suite>

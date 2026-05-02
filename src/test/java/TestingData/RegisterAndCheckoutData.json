@@ -1,0 +1,54 @@
+[
+  {
+    "user": {
+      "name": "Test User 1",
+      "email": "omar_test_12345678912@gmail.com",
+      "password": "123",
+      "day": "10",
+      "month": "January",
+      "year": "2000",
+      "firstName": "John",
+      "lastName": "Doe",
+      "company": "Test Company",
+      "address": "123 Main St",
+      "country": "United States",
+      "state": "New York",
+      "city": "New York",
+      "zipcode": "10001",
+      "mobileNumber": "555-1234"
+    },
+    "card": {
+      "nameOnCard": "John Doe",
+      "cardNumber": "4111111111111111",
+      "cvc": "311",
+      "expiryMonth": "12",
+      "expiryYear": "2025"
+    }
+  },
+  {
+    "user": {
+      "name": "Test User 2",
+      "email": "omar_test_123456789182@gmail.com",
+      "password": "456",
+      "day": "15",
+      "month": "May",
+      "year": "1995",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "company": "Another Inc",
+      "address": "456 Elm St",
+      "country": "Canada",
+      "state": "Ontario",
+      "city": "Toronto",
+      "zipcode": "M5V 2T6",
+      "mobileNumber": "555-5678"
+    },
+    "card": {
+      "nameOnCard": "Jane Smith",
+      "cardNumber": "5222222222222222",
+      "cvc": "123",
+      "expiryMonth": "05",
+      "expiryYear": "2027"
+    }
+  }
+]
